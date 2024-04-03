@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 import com.e2etests.automation.utils.ConfigFileReader;
 import com.e2etests.automation.utils.Setup;
 
-public class Register_CPage {
+public class RegisterTestCasePage {
 	
 private ConfigFileReader configfilereader;
 	
@@ -57,9 +57,9 @@ private ConfigFileReader configfilereader;
 	public static WebElement btnEnvoyer;
 	
 	@FindBy(how = How.XPATH, using = "//b[contains(text(),'Note: Your user name is')]")
-	public static WebElement Register_CMessage;
+	public static WebElement RegisterMessage;
 	
-	public Register_CPage() {
+	public RegisterTestCasePage() {
 		
 		PageFactory.initElements(Setup.driver, this);
 		this.configfilereader = new ConfigFileReader();
@@ -142,5 +142,6 @@ private ConfigFileReader configfilereader;
 	
 		btnEnvoyer.click();
 	}
+
 
 }

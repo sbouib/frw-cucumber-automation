@@ -80,9 +80,9 @@ public class RegisterStepDefinition {
 		registerPage.fillPostalCode(postalcode);
 
 	}
-
-	@When("je select le pays {string}")
-	public void jeSelectLePays(String Country) {
+	
+	@When("je selectionne le pays {string}")
+	public void jeSelectionneLePays(String Country) {
 		registerPage.fillCountry(Country);
 	}
 

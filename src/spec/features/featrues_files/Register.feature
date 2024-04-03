@@ -13,7 +13,7 @@ Feature: Je remplie la formulaire de creation de compte
    And je saisie ma ville "Elhamma"
    And je saisie mon stat "Gabes"
    And je saisie mon code postal "6020"
-   And je select le pays "TUNISIA"
+   And je selectionne le pays "TUNISIA"
    And je saisie mon User Name "baha"
    And je saisie mon Password "baha@baha"
    And je confirm mon Password "baha@baha"
